@@ -1,0 +1,111 @@
+
+*** Modified files in JOE when it aborted on Mon Apr 13 05:20:00 2026
+*** JOE was aborted by signal 1
+
+*** File '/vol/home/s3990788/XAI/Assignment2/.git/COMMIT_EDITMSG'
+add gradcam
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: H. Chen <s3990788@u0065003.vuw.leidenuniv.nl>
+#
+# interactive rebase in progress; onto d49ae89
+# Last command done (1 command done):
+#    pick 5cef62a add gradcam
+# No commands remaining.
+# You are currently rebasing branch 'main' on 'd49ae89'.
+#
+# Changes to be committed:
+#	new file:   alternative_model.py
+#	modified:   baseline.py
+#	new file:   gradcam.py
+#	new file:   gradcam_misclassified.py
+#	new file:   hyperparameter_optimization(LR).py
+#	new file:   output/change_learning_rate/cnn_cm_lr_0.0001.png
+#	new file:   output/change_learning_rate/cnn_cm_lr_0.0005.png
+#	new file:   output/change_learning_rate/cnn_cm_lr_0.001.png
+#	new file:   output/change_learning_rate/cnn_cm_lr_1e-05.png
+#	new file:   output/change_learning_rate/cnn_cm_lr_5e-05.png
+#	new file:   output/change_learning_rate/cnn_results_lr_0.0001.txt
+#	new file:   output/change_learning_rate/cnn_results_lr_0.0005.txt
+#	new file:   output/change_learning_rate/cnn_results_lr_0.001.txt
+#	new file:   output/change_learning_rate/cnn_results_lr_1e-05.txt
+#	new file:   output/change_learning_rate/cnn_results_lr_5e-05.txt
+#	new file:   output/change_learning_rate/training_lr_0.0001.png
+#	new file:   output/change_learning_rate/training_lr_0.0005.png
+#	new file:   output/change_learning_rate/training_lr_0.001.png
+#	new file:   output/change_learning_rate/training_lr_1e-05.png
+#	new file:   output/change_learning_rate/training_lr_5e-05.png
+#	new file:   output/cnn_confusion_matrix.png
+#	new file:   output/cnn_model.keras
+#	new file:   output/cnn_results.txt
+#	new file:   output/gradcam/test_normal_example_gradcam.png
+#	new file:   output/gradcam_misclassified/01_person101_bacteria_484.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/02_person117_bacteria_557.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/03_person119_bacteria_567.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/04_person119_bacteria_568.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/05_person121_bacteria_580.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/06_person122_bacteria_581.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/07_person127_bacteria_604.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/08_person128_bacteria_608.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/misclassified_summary.txt
+#	new file:   output/logreg_confusion_matrix.png
+#	new file:   output/logreg_results.txt
+#	modified:   output/training_curves.png
+#
+
+*** Modified files in JOE when it aborted on Mon Apr 13 05:22:14 2026
+*** JOE was aborted by signal 1
+
+*** File '/vol/home/s3990788/XAI/Assignment2/.git/COMMIT_EDITMSG'
+add gradcam
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: H. Chen <s3990788@u0065003.vuw.leidenuniv.nl>
+#
+# interactive rebase in progress; onto d49ae89
+# Last command done (1 command done):
+#    pick 5cef62a add gradcaxit
+# No commands remaining.
+# You are currently rebasing branch 'main' on 'd49ae89'.
+#
+# Changes to be committed:
+#	new file:   alternative_model.py
+#	modified:   baseline.py
+#	new file:   gradcam.py
+#	new file:   gradcam_misclassified.py
+#	new file:   hyperparameter_optimization(LR).py
+#	new file:   output/change_learning_rate/cnn_cm_lr_0.0001.png
+#	new file:   output/change_learning_rate/cnn_cm_lr_0.0005.png
+#	new file:   output/change_learning_rate/cnn_cm_lr_0.001.png
+#	new file:   output/change_learning_rate/cnn_cm_lr_1e-05.png
+#	new file:   output/change_learning_rate/cnn_cm_lr_5e-05.png
+#	new file:   output/change_learning_rate/cnn_results_lr_0.0001.txt
+#	new file:   output/change_learning_rate/cnn_results_lr_0.0005.txt
+#	new file:   output/change_learning_rate/cnn_results_lr_0.001.txt
+#	new file:   output/change_learning_rate/cnn_results_lr_1e-05.txt
+#	new file:   output/change_learning_rate/cnn_results_lr_5e-05.txt
+#	new file:   output/change_learning_rate/training_lr_0.0001.png
+#	new file:   output/change_learning_rate/training_lr_0.0005.png
+#	new file:   output/change_learning_rate/training_lr_0.001.png
+#	new file:   output/change_learning_rate/training_lr_1e-05.png
+#	new file:   output/change_learning_rate/training_lr_5e-05.png
+#	new file:   output/cnn_confusion_matrix.png
+#	new file:   output/cnn_model.keras
+#	new file:   output/cnn_results.txt
+#	new file:   output/gradcam/test_normal_example_gradcam.png
+#	new file:   output/gradcam_misclassified/01_person101_bacteria_484.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/02_person117_bacteria_557.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/03_person119_bacteria_567.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/04_person119_bacteria_568.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/05_person121_bacteria_580.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/06_person122_bacteria_581.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/07_person127_bacteria_604.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/08_person128_bacteria_608.jpeg_true_Pneumonia_pred_Normal.png
+#	new file:   output/gradcam_misclassified/misclassified_summary.txt
+#	new file:   output/logreg_confusion_matrix.png
+#	new file:   output/logreg_results.txt
+#	modified:   output/training_curves.png
