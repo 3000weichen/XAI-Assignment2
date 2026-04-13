@@ -85,7 +85,7 @@ model.add(Dropout(0.2))
 model.add(BatchNormalization())
 model.add(MaxPool2D())
 
-model.add(Conv2D(256, (3,3), padding='same', activation='relu'))
+model.add(Conv2D(256, (3,3), padding='same', activation='relu', name='last_conv'))
 model.add(Dropout(0.2))
 model.add(BatchNormalization())
 model.add(MaxPool2D())
@@ -98,7 +98,6 @@ model.add(Dense(1, activation='sigmoid'))
 model.compile(optimizer = "rmsprop" , loss = 'binary_crossentropy' , metrics = ['accuracy'])
 
 model.summary()
-
 
 learning_rate_reduction = ReduceLROnPlateau(
     monitor='val_accuracy',
@@ -113,6 +112,7 @@ history = model.fit(
     validation_data=(x_val, y_val),
     callbacks=[learning_rate_reduction]
 )
+model.save("output/cnn_model.keras")
 
 os.makedirs("output", exist_ok=True)
 
@@ -137,11 +137,43 @@ plt.legend()
 plt.savefig("output/training_curves.png")
 plt.close()
 
+# test prediction
 y_pred_prob = model.predict(x_test)
 y_pred = (y_pred_prob > 0.5).astype(int).reshape(-1)
 
+# report + confusion matrix
+report = classification_report(y_test, y_pred, target_names=["Pneumonia", "Normal"])
+cm = confusion_matrix(y_test, y_pred)
+
 print("\nClassification Report:")
-print(classification_report(y_test, y_pred, target_names=["Pneumonia", "Normal"]))
+print(report)
 
 print("\nConfusion Matrix:")
-print(confusion_matrix(y_test, y_pred))
+print(cm)
+
+# save txt
+with open("output/cnn_results.txt", "w") as f:
+    f.write("Classification Report:\n")
+    f.write(report)
+    f.write("\n")
+    f.write("Confusion Matrix:\n")
+    f.write(np.array2string(cm))
+
+# save confusion matrix figure
+import seaborn as sns
+
+plt.figure(figsize=(6, 5))
+sns.heatmap(
+    cm,
+    annot=True,
+    fmt="d",
+    cmap="Blues",
+    xticklabels=["Pred Pneumonia", "Pred Normal"],
+    yticklabels=["True Pneumonia", "True Normal"]
+)
+plt.title("CNN Confusion Matrix")
+plt.xlabel("Predicted Label")
+plt.ylabel("True Label")
+plt.tight_layout()
+plt.savefig("output/cnn_confusion_matrix.png", dpi=300, bbox_inches="tight")
+plt.close()

@@ -1,0 +1,51 @@
+Total misclassified samples found: 57
+Saved first 8 samples.
+
+1. File: person101_bacteria_484.jpeg
+   True label: Pneumonia
+   Pred label: Normal
+   Score: 0.6565
+   Saved to: output/gradcam_misclassified/01_person101_bacteria_484.jpeg_true_Pneumonia_pred_Normal.png
+
+2. File: person117_bacteria_557.jpeg
+   True label: Pneumonia
+   Pred label: Normal
+   Score: 0.7295
+   Saved to: output/gradcam_misclassified/02_person117_bacteria_557.jpeg_true_Pneumonia_pred_Normal.png
+
+3. File: person119_bacteria_567.jpeg
+   True label: Pneumonia
+   Pred label: Normal
+   Score: 0.9926
+   Saved to: output/gradcam_misclassified/03_person119_bacteria_567.jpeg_true_Pneumonia_pred_Normal.png
+
+4. File: person119_bacteria_568.jpeg
+   True label: Pneumonia
+   Pred label: Normal
+   Score: 0.9750
+   Saved to: output/gradcam_misclassified/04_person119_bacteria_568.jpeg_true_Pneumonia_pred_Normal.png
+
+5. File: person121_bacteria_580.jpeg
+   True label: Pneumonia
+   Pred label: Normal
+   Score: 0.5900
+   Saved to: output/gradcam_misclassified/05_person121_bacteria_580.jpeg_true_Pneumonia_pred_Normal.png
+
+6. File: person122_bacteria_581.jpeg
+   True label: Pneumonia
+   Pred label: Normal
+   Score: 0.9643
+   Saved to: output/gradcam_misclassified/06_person122_bacteria_581.jpeg_true_Pneumonia_pred_Normal.png
+
+7. File: person127_bacteria_604.jpeg
+   True label: Pneumonia
+   Pred label: Normal
+   Score: 0.9709
+   Saved to: output/gradcam_misclassified/07_person127_bacteria_604.jpeg_true_Pneumonia_pred_Normal.png
+
+8. File: person128_bacteria_608.jpeg
+   True label: Pneumonia
+   Pred label: Normal
+   Score: 0.6836
+   Saved to: output/gradcam_misclassified/08_person128_bacteria_608.jpeg_true_Pneumonia_pred_Normal.png
+
